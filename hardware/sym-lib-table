@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "7-segment")(type "KiCad")(uri "${KIPRJMOD}/7-segment.kicad_sym")(options "")(descr ""))
+  (lib (name "LED-extra")(type "KiCad")(uri "${ATOOMNETKICAD}/symbols/LED-extra.kicad_sym")(options "")(descr ""))
+)

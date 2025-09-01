@@ -1,0 +1,8766 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2ea2c5e0-cfa4-4234-b7e9-8c405a2116ca")
+	(paper "A4")
+	(title_block
+		(title "n-teller-xl-diy")
+		(date "2025-07-28")
+		(rev "1.0")
+		(company "https://github.com/atoomnetmarc/n-teller-xl-diy")
+		(comment 1 "Apache License 2.0")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED-extra:SK6812MINI-E"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Reverse mount RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Reverse mount RGB LED NeoPixel Mini addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 220.98 13.97)
+		(end 283.21 109.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 332cefdb-6d3e-417e-8f50-fbadba199dc9)
+	)
+	(text "Decoupling digital RGB LEDs"
+		(exclude_from_sim no)
+		(at 227.33 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd48454f-ac21-412a-a649-d74f9d7f1788")
+	)
+	(wire
+		(pts
+			(xy 63.5 62.23) (xy 38.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c21855-ef04-4abf-bcf2-0fbdcfa5faa1")
+	)
+	(wire
+		(pts
+			(xy 114.3 177.8) (xy 114.3 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036b09f0-7c06-4cd8-b034-0d91f6e65c98")
+	)
+	(wire
+		(pts
+			(xy 38.1 127) (xy 43.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d8d161-f657-40b9-881a-7aed039973b7")
+	)
+	(wire
+		(pts
+			(xy 273.05 30.48) (xy 273.05 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083bba30-17ab-4f5b-85c1-cfe3c77e2114")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac3bb32-4322-4232-b8fb-02af9f409921")
+	)
+	(wire
+		(pts
+			(xy 134.62 152.4) (xy 139.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e0eef6-a3be-40d3-a1ed-0d407d263f96")
+	)
+	(wire
+		(pts
+			(xy 240.03 30.48) (xy 240.03 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1378cf2f-5693-48a6-9b40-98198b95d4d3")
+	)
+	(wire
+		(pts
+			(xy 63.5 193.04) (xy 63.5 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14eb4f26-36bb-4898-aa05-244b6796f3d7")
+	)
+	(wire
+		(pts
+			(xy 74.93 152.4) (xy 74.93 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177f77e9-bcd8-4de6-8ce3-1595433e196c")
+	)
+	(wire
+		(pts
+			(xy 139.7 177.8) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19cea7aa-d56e-4b3f-9dd6-72a8d1eaa5b1")
+	)
+	(wire
+		(pts
+			(xy 38.1 138.43) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2222b2cd-61a6-47ef-8800-376569e3e06d")
+	)
+	(wire
+		(pts
+			(xy 38.1 166.37) (xy 38.1 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a976ff-e986-4169-8084-5ae79d01cd9e")
+	)
+	(wire
+		(pts
+			(xy 90.17 177.8) (xy 93.98 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276cf4b2-10b8-4808-9195-bf148cfc5de4")
+	)
+	(wire
+		(pts
+			(xy 251.46 82.55) (xy 251.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29700d2b-f1fc-453c-86bd-b346d5fb8aad")
+	)
+	(wire
+		(pts
+			(xy 261.62 55.88) (xy 261.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab54a43-530d-4d04-8a54-f23ac28e6836")
+	)
+	(wire
+		(pts
+			(xy 139.7 62.23) (xy 114.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f97e37d-210f-4b11-abd6-e47cf9a148a8")
+	)
+	(wire
+		(pts
+			(xy 228.6 66.04) (xy 228.6 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32467895-1af4-4df0-b568-cca05ff66357")
+	)
+	(wire
+		(pts
+			(xy 240.03 66.04) (xy 240.03 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3343b9aa-1773-4f18-9eda-19b07bdda87e")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349feadf-7e1b-4a19-bbf2-207471281e20")
+	)
+	(wire
+		(pts
+			(xy 114.3 193.04) (xy 63.5 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bbdae5-c94f-4190-986e-59149c7f26a6")
+	)
+	(wire
+		(pts
+			(xy 165.1 195.58) (xy 90.17 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be08d34-0e66-4983-910f-4a013d7917e4")
+	)
+	(wire
+		(pts
+			(xy 165.1 177.8) (xy 165.1 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439a67a8-4822-490f-839e-561f04b4680a")
+	)
+	(wire
+		(pts
+			(xy 38.1 76.2) (xy 43.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e06567-5845-402c-9ced-714efc63ba9d")
+	)
+	(wire
+		(pts
+			(xy 228.6 92.71) (xy 228.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a71873-7b91-4d05-b59b-860e0e02972d")
+	)
+	(wire
+		(pts
+			(xy 124.46 13.97) (xy 53.34 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a258a4d-f4e1-41cc-8abf-50d39673e0ae")
+	)
+	(wire
+		(pts
+			(xy 261.62 66.04) (xy 261.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d91395c-50db-44e5-88b9-cd040909f1d1")
+	)
+	(wire
+		(pts
+			(xy 38.1 62.23) (xy 38.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbb9cdd-fd64-40ba-a3e7-4a4602ebd02e")
+	)
+	(wire
+		(pts
+			(xy 111.76 127) (xy 119.38 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9fd80e-24bc-4297-8279-1795a93daf77")
+	)
+	(wire
+		(pts
+			(xy 58.42 152.4) (xy 74.93 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc6356f-600c-4259-901d-1e0c08363275")
+	)
+	(wire
+		(pts
+			(xy 74.93 138.43) (xy 38.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c18c76-ba82-43dc-b6b1-a504d45734bf")
+	)
+	(wire
+		(pts
+			(xy 63.5 101.6) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fe8551-a268-4d45-b188-36c0acbd9327")
+	)
+	(wire
+		(pts
+			(xy 87.63 177.8) (xy 87.63 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56426db0-e54f-40dd-b13f-59fd1d277672")
+	)
+	(wire
+		(pts
+			(xy 240.03 40.64) (xy 240.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c6a20d-417c-455a-a99b-e1c2d5db6e77")
+	)
+	(wire
+		(pts
+			(xy 261.62 92.71) (xy 261.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca5ceeb-9718-4faf-a24b-deb8613a1893")
+	)
+	(wire
+		(pts
+			(xy 240.03 82.55) (xy 240.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60023ae1-fb0e-48c4-853f-1a87d624e0f4")
+	)
+	(wire
+		(pts
+			(xy 110.49 138.43) (xy 110.49 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b873ec-2ae2-4b16-a3fd-bd754b0b997b")
+	)
+	(wire
+		(pts
+			(xy 87.63 39.37) (xy 38.1 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f5c782-599f-4919-839f-c06b98e3c1a4")
+	)
+	(wire
+		(pts
+			(xy 261.62 30.48) (xy 261.62 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e02155-9201-4c27-8800-ffe4381e9b65")
+	)
+	(wire
+		(pts
+			(xy 251.46 66.04) (xy 251.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f34f1f-6307-4717-8f74-d909e812fb1a")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3c3252-21ce-4e09-8933-49c74fa758cd")
+	)
+	(wire
+		(pts
+			(xy 38.1 152.4) (xy 43.18 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db3c312-69c9-445b-9f38-4eca24d420c7")
+	)
+	(wire
+		(pts
+			(xy 144.78 138.43) (xy 110.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712e8fda-6ac5-4da5-9cda-1094e932452e")
+	)
+	(wire
+		(pts
+			(xy 240.03 92.71) (xy 240.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7728d346-0608-48f5-a772-2eb917b6f5a9")
+	)
+	(wire
+		(pts
+			(xy 109.22 101.6) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7892afe0-f34b-4d97-93db-58c62a3c8d2f")
+	)
+	(wire
+		(pts
+			(xy 139.7 152.4) (xy 139.7 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e881c0-a24d-4ca1-be05-6a96183d8a89")
+	)
+	(wire
+		(pts
+			(xy 90.17 39.37) (xy 90.17 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7961dd81-1a19-4d73-9932-e9cdd0771b21")
+	)
+	(wire
+		(pts
+			(xy 251.46 92.71) (xy 251.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796cfd08-bd46-4b69-9a89-67759ebe6ef0")
+	)
+	(wire
+		(pts
+			(xy 160.02 177.8) (xy 165.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb14384-0094-40bf-ba57-16e2c28b50d6")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 124.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8099b3dc-85e2-4a7b-b910-e93bb6a7e35d")
+	)
+	(wire
+		(pts
+			(xy 228.6 82.55) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b5c91d-159c-45fb-85c7-e1398a666a19")
+	)
+	(wire
+		(pts
+			(xy 134.62 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85505ad4-fad5-4746-93db-4bec10d6d08b")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f4f626-4dc8-4f80-b1bc-8b50ed51c55d")
+	)
+	(wire
+		(pts
+			(xy 144.78 127) (xy 144.78 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be940b3-e6cc-4666-9778-526417f0ca5e")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.37) (xy 38.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eac9c42-4386-47bc-a7ab-58ca064b7341")
+	)
+	(wire
+		(pts
+			(xy 273.05 92.71) (xy 273.05 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed1f8bd-2ff0-4b86-8bca-5c1e49c319c1")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91595eb1-ea2d-47df-8bcc-cbbbf9a4781a")
+	)
+	(wire
+		(pts
+			(xy 110.49 152.4) (xy 119.38 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b78f9c-cfd3-4b94-8d22-792ac65fa2bf")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b736bc-383f-41fb-964c-e1f158852f64")
+	)
+	(wire
+		(pts
+			(xy 90.17 195.58) (xy 90.17 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936d7b7a-8f43-4662-a701-56d3f9f2241f")
+	)
+	(wire
+		(pts
+			(xy 53.34 13.97) (xy 53.34 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956bf6cb-c8d5-4c24-9c8a-57593d91e6d7")
+	)
+	(wire
+		(pts
+			(xy 240.03 55.88) (xy 240.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb868cb-0a17-450d-a956-b3830cacbc88")
+	)
+	(wire
+		(pts
+			(xy 38.1 50.8) (xy 43.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd20980-0e38-473b-a608-4c956d5eb95b")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9defafa0-4880-4eff-a005-6d2dec4649e9")
+	)
+	(wire
+		(pts
+			(xy 134.62 127) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b5ceec-ef41-4853-8e86-ac633a084dbd")
+	)
+	(wire
+		(pts
+			(xy 228.6 55.88) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0440cd5-0930-4293-8bdf-7d8ad3a96702")
+	)
+	(wire
+		(pts
+			(xy 139.7 39.37) (xy 90.17 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f17e65-1a2c-440b-913f-14962d78770a")
+	)
+	(wire
+		(pts
+			(xy 251.46 55.88) (xy 251.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b541d680-7178-4491-8c3f-b8908baf9eea")
+	)
+	(wire
+		(pts
+			(xy 87.63 166.37) (xy 38.1 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6edd36a-5317-40af-a077-1d9af4eefb8c")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 139.7 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ff18fa-2536-441d-8c44-bc8186ea643f")
+	)
+	(wire
+		(pts
+			(xy 90.17 25.4) (xy 93.98 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ace20e-f771-43d6-8aff-ee49eda51013")
+	)
+	(wire
+		(pts
+			(xy 251.46 40.64) (xy 251.46 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9537c3a-c8bb-478f-b99c-eafc29964b92")
+	)
+	(wire
+		(pts
+			(xy 63.5 127) (xy 63.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c47c0b-8de2-4f3a-8f82-0c9470a3ebff")
+	)
+	(wire
+		(pts
+			(xy 228.6 40.64) (xy 228.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf757576-4843-4659-8abb-45062a29c165")
+	)
+	(wire
+		(pts
+			(xy 261.62 82.55) (xy 261.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c020b2c7-700e-468e-bd69-cdd47e23ea68")
+	)
+	(wire
+		(pts
+			(xy 63.5 177.8) (xy 68.58 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf4d5be-936f-4a1a-ac74-3f29cc914f9e")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 67.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb85949-b26f-40c3-9af4-a23b6dde3f30")
+	)
+	(wire
+		(pts
+			(xy 251.46 30.48) (xy 251.46 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbecc986-e7a1-4269-b6ea-979efe17d31e")
+	)
+	(wire
+		(pts
+			(xy 273.05 66.04) (xy 273.05 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0bb5c0-2076-4a9d-bc1f-575658ec11d3")
+	)
+	(wire
+		(pts
+			(xy 58.42 127) (xy 63.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce909cf3-8ee2-4100-9c00-f895799fa6e8")
+	)
+	(wire
+		(pts
+			(xy 228.6 30.48) (xy 228.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf31eda5-0cf1-4028-9855-a3cc43b5113d")
+	)
+	(wire
+		(pts
+			(xy 53.34 25.4) (xy 68.58 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d417ab09-be6d-49f5-8d20-0fe626e55796")
+	)
+	(wire
+		(pts
+			(xy 109.22 177.8) (xy 114.3 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da29a42e-5471-45e3-b949-54ad70921305")
+	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de19ed55-edbd-4b08-8531-2a7e459edf64")
+	)
+	(wire
+		(pts
+			(xy 87.63 25.4) (xy 87.63 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ef99cc-438e-41a5-bc70-b90b9a095158")
+	)
+	(wire
+		(pts
+			(xy 83.82 177.8) (xy 87.63 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e630dfdb-21f8-440a-93e8-5d43da5c1c36")
+	)
+	(wire
+		(pts
+			(xy 124.46 25.4) (xy 124.46 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6346beb-e73e-499f-8425-df5fe9eaf65a")
+	)
+	(wire
+		(pts
+			(xy 261.62 40.64) (xy 261.62 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8da31f-69c8-404a-b4e1-c5d0f16538e0")
+	)
+	(wire
+		(pts
+			(xy 273.05 55.88) (xy 273.05 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f067916c-e893-4f1a-9486-3dbe1d6008ab")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 63.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a7c790-60d8-4673-bdf3-1a84ca9fa9eb")
+	)
+	(wire
+		(pts
+			(xy 273.05 40.64) (xy 273.05 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86be45d-7152-43d2-ba0d-27f098508b1f")
+	)
+	(wire
+		(pts
+			(xy 83.82 25.4) (xy 87.63 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c747a1-1d27-4601-9ca9-4d39e622baf3")
+	)
+	(wire
+		(pts
+			(xy 273.05 82.55) (xy 273.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda15d2d-fd91-451a-8b6e-1ed5b7423e79")
+	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 67.31 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "788b7cb7-5857-4c32-aa2a-4958abb96a8e")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 111.76 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "845b2061-95d1-4713-a780-dd62e3d27f45")
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 76.2 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00079a3a-4585-44db-a00a-94a54c86926f")
+		(property "Reference" "D1A1"
+			(at 62.23 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 62.23 21.5198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 77.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 78.74 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "36f24beb-bb1e-4fa3-8bbf-4518dcc6a889")
+		)
+		(pin "4"
+			(uuid "94b26925-6e65-43fc-81f5-9494859dbf83")
+		)
+		(pin "2"
+			(uuid "0866855e-f912-45e7-8c1e-5a6a3ed43fcc")
+		)
+		(pin "1"
+			(uuid "2326de54-6c10-462b-b8ca-6b9a5ac5ba16")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3A1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1A1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4A1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00cc1133-19fc-47fe-9224-6aec64b8b1f6")
+		(property "Reference" "#PWR060"
+			(at 251.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb770024-d33f-4a73-bf19-b869322549b1")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 228.6 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0661553a-d2f6-43cb-a990-964c9a74c939")
+		(property "Reference" "#PWR063"
+			(at 228.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 228.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b367e19-7797-45e4-a53f-ecb1fb002c42")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 127 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11f9c082-aa48-4aef-a994-a4445df8d3b8")
+		(property "Reference" "D1B1"
+			(at 113.03 44.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 113.03 46.9198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 129.54 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3bddc030-b2a5-4db2-9e60-c595b973970f")
+		)
+		(pin "4"
+			(uuid "35a026af-2761-4a0a-9114-49dcfa963f05")
+		)
+		(pin "2"
+			(uuid "04ea4579-e2da-47f4-b31f-1cbdb7cdc3e7")
+		)
+		(pin "1"
+			(uuid "bde82cc1-6de8-4475-9a10-b5348d1c433a")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3B1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1B1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4B1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 50.8 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1247dc72-60f3-4ebe-b48d-ef30957ebf82")
+		(property "Reference" "D1E2"
+			(at 64.77 145.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 64.77 148.5198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 53.34 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 50.8 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "27bbba86-6957-43bc-bc51-7ad48c381deb")
+		)
+		(pin "4"
+			(uuid "c5105a02-9509-4ea7-ae3f-573a85886c2b")
+		)
+		(pin "2"
+			(uuid "28507589-a3a6-49c5-b513-69965060188a")
+		)
+		(pin "1"
+			(uuid "8506bbba-efc1-4ab8-b1bb-264a9e73a0e5")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3E2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1E2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4E2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2E2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a6179b5-ef7f-4b85-ad28-41cd0f306b43")
+		(property "Reference" "#PWR019"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.102 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "414305a8-503d-4f11-8429-d9ab3886d1f8")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "222e2e5e-00e8-4313-a7af-0d201c3358e9")
+		(property "Reference" "#PWR010"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf796228-d3a4-4771-947d-1bdf538fa5c4")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23811993-a492-4095-8dfe-f06b519c008b")
+		(property "Reference" "#PWR043"
+			(at 240.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83c1e99e-ee78-42a4-b19e-09570f7bc84b")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0234")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b85679-db5b-4af9-806e-1e06893df8da")
+		(property "Reference" "#PWR08"
+			(at 76.2 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01cfb44a-aba8-46fd-b2c1-9d56a042e26b")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "275cb51a-47cb-4724-bffa-6b8614a542bb")
+		(property "Reference" "#PWR058"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a66321dd-15a9-4a9e-9752-1a3957f7afaf")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0226")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2850fbe4-9ece-42d4-8cc4-402cf6e1fc4d")
+		(property "Reference" "C13"
+			(at 232.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 229.5652 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f070236-3a1a-42ad-924b-d8d680d08900")
+		)
+		(pin "1"
+			(uuid "6b8014b0-e645-418b-beca-7559df6e6153")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C34")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C49")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 127 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "286c995b-f839-48c3-b95d-b6e3109887e8")
+		(property "Reference" "D1C2"
+			(at 140.97 145.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 140.97 148.5198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 128.27 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 129.54 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "584d7f99-d424-4fe1-95d0-419076626efe")
+		)
+		(pin "4"
+			(uuid "b7fe6962-0092-48dc-b356-9a191595ed25")
+		)
+		(pin "2"
+			(uuid "63020c92-d220-45c0-87c7-26bc723c42df")
+		)
+		(pin "1"
+			(uuid "b432dca5-9b5c-4441-85de-9532f0b725d9")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3C2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1C2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4C2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 251.46 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "295484d6-740d-42c7-ba48-eb0b4b1ae8ab")
+		(property "Reference" "#PWR055"
+			(at 251.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 251.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53c9182c-8f3d-4ffd-ba54-8c4ffce9d652")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0237")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 273.05 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b622164-db61-470b-b8e0-d4996c1083d5")
+		(property "Reference" "#PWR057"
+			(at 273.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89ba8909-8266-454e-a457-0c0cab85fc12")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0249")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ce9910c-61c0-4341-8ed9-ec3ea33be17e")
+		(property "Reference" "#PWR046"
+			(at 273.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba00f746-04e4-4dee-8fd7-b3ee6d95d261")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0252")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 50.8 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d7724dd-a06f-441c-a27d-4ceca51e487c")
+		(property "Reference" "D1F2"
+			(at 64.77 69.7798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 64.77 72.3198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 53.34 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 50.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1c44ce01-fb18-4961-b7d7-9d42cbe0e01f")
+		)
+		(pin "4"
+			(uuid "888d698a-c0e6-4424-abb8-1491b165fab3")
+		)
+		(pin "2"
+			(uuid "69a5fc1d-746c-4296-8df6-5d08ea6ef7a0")
+		)
+		(pin "1"
+			(uuid "15d8a2c3-a7d7-4106-993a-3735426b7fb0")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3F2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1F2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4F2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 251.46 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3338a158-81c3-4a5e-8684-22cb499d3905")
+		(property "Reference" "C4"
+			(at 255.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 255.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 252.4252 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "22feec92-3554-4965-a336-7feb7cb6eabf")
+		)
+		(pin "1"
+			(uuid "a61f9a5e-6530-4b77-bdfa-b7567ec6cb5b")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C4")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C57")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 101.6 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33f7a541-14c8-4995-bbab-5421c89406c1")
+		(property "Reference" "#PWR027"
+			(at 101.6 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 104.902 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 101.6 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "683fcc71-3e75-4f83-85b1-e7c3db60eeb9")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 101.6 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "354ac296-22c1-4893-bcb6-9cd0ed419a5f")
+		(property "Reference" "D1D2"
+			(at 115.57 171.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 115.57 173.9198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 102.87 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 104.14 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 101.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a3922a24-8ad4-437b-9af4-92b9d4277c11")
+		)
+		(pin "4"
+			(uuid "74b44943-a86e-449d-97c2-bc36d190f8e4")
+		)
+		(pin "2"
+			(uuid "d784c9c7-ebe2-43a0-93a2-dbd76c64ee9b")
+		)
+		(pin "1"
+			(uuid "447f4d3c-2ffa-4da9-838d-80e871f6629f")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3D2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1D2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4D2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3588d6c3-060c-4e34-a938-4128fdd614a5")
+		(property "Reference" "C8"
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 232.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 229.5652 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5287c259-915c-4db6-bf55-cce38b9ff6f2")
+		)
+		(pin "1"
+			(uuid "7f38b0f1-524c-4836-b9d7-8ed0dfdbdc9f")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C50")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 76.2 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36223043-66e5-4cec-8a6f-314a500f34c7")
+		(property "Reference" "D1G1"
+			(at 78.3433 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 78.3433 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 78.74 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0c8b656d-c050-4920-908f-56cff4911583")
+		)
+		(pin "4"
+			(uuid "88f06df6-45ba-4f60-be3a-4294ed1a842b")
+		)
+		(pin "2"
+			(uuid "bc45a538-921a-4088-8fdf-69e6a2c76952")
+		)
+		(pin "1"
+			(uuid "251d16fa-c939-4893-a59b-c865bcc7caab")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3G1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1G1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4G1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38037838-bca3-4943-8149-0a698352578d")
+		(property "Reference" "#PWR028"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.302 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2557a63b-1b0f-46d4-8067-ebad134f0766")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 228.6 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39376117-b6ba-4c7e-bf66-c643275d3f78")
+		(property "Reference" "#PWR051"
+			(at 228.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 228.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33c6d8a8-5fca-4208-8d9d-af3fe62e8634")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bb6ad6d-dd6a-48aa-9036-638549b2c933")
+		(property "Reference" "#PWR029"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.302 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7f33e1b-fee3-4b85-8cc2-ae6fc537b208")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d4a1ec2-2eb9-4f46-9c63-b33b6f50c876")
+		(property "Reference" "#PWR06"
+			(at 127 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21d0ab1b-3baf-4469-a2e9-59361d8ece16")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d6ff230-c44d-47c3-9b98-6835f50fa5e9")
+		(property "Reference" "#PWR026"
+			(at 76.2 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 79.502 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 76.2 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "925fe04d-946a-4ef9-8e56-ec2cf39d1863")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 251.46 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e5348f7-3d77-488c-a951-d13f95d9694c")
+		(property "Reference" "C10"
+			(at 255.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 255.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 252.4252 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25f6cee6-ab6f-4a3c-a5c1-7de88bdfa531")
+		)
+		(pin "1"
+			(uuid "943009c7-d336-4b6c-b973-51266a8a3747")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C56")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 251.46 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42cbe196-0f0d-4e5a-a689-53e18db0c818")
+		(property "Reference" "C15"
+			(at 255.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 255.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 252.4252 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e781d591-2781-40e2-9d49-be2e06f1119e")
+		)
+		(pin "1"
+			(uuid "5a7a9501-153c-49f6-bfc2-062c763e6c5a")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C55")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "440b2efe-f016-4035-9be8-9a639094dbb1")
+		(property "Reference" "C7"
+			(at 232.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 232.41 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 229.5652 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20edf61a-370c-47d8-9b12-5f0b6cc50f55")
+		)
+		(pin "1"
+			(uuid "9043c492-7762-4afa-91ea-f715797f5991")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C51")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "460a8dbc-5bef-4a3f-a1b6-a5ca2ea7520d")
+		(property "Reference" "#PWR061"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47fae020-be3f-4e87-af1a-3690a3e2d2fd")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ad6ae0c-4e86-41d1-a67c-926be484a6d2")
+		(property "Reference" "#PWR044"
+			(at 251.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14fe33e6-1999-41a5-a750-719715722b6b")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0240")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b06bfe8-7a2d-4067-8546-1df9691513e0")
+		(property "Reference" "#PWR017"
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48b51961-c2a2-4dac-93f2-3c91b3a2540e")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 101.6 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b18a7e3-ade6-48e9-be6a-a4d5226a7570")
+		(property "Reference" "D1A2"
+			(at 115.57 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 115.57 21.5198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 102.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 104.14 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3d17ec48-9a6a-4d50-add3-785c8a8605fb")
+		)
+		(pin "4"
+			(uuid "6721ec44-8aa9-46a3-a971-81183856b9c7")
+		)
+		(pin "2"
+			(uuid "f501e60a-9d81-4da4-93f9-fdc8cb0e2f85")
+		)
+		(pin "1"
+			(uuid "26176158-b484-48e9-a028-507489692e74")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3A2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1A2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4A2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2A2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 50.8 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e37d978-db6b-49b9-b099-7ca4d55fc5f9")
+		(property "Reference" "D1E1"
+			(at 36.83 120.5798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 36.83 123.1198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 52.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 53.34 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 50.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6b67c94a-38c7-4ee2-9a89-39f72e5771c6")
+		)
+		(pin "4"
+			(uuid "b3cc4cea-79e1-4c97-a1b8-24b3032ec90c")
+		)
+		(pin "2"
+			(uuid "6a668897-f46c-4c2c-9da4-15c076065164")
+		)
+		(pin "1"
+			(uuid "b9802d90-a053-49ba-b41f-6d67af74b4bf")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3E1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1E1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4E1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2E1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5705f135-63b8-4eb1-b76f-3a5dfe467150")
+		(property "Reference" "#PWR011"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2270fe1b-59c7-4161-afed-fddd2060e698")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58eeb620-9421-4c0c-9301-479c4fa0c7b7")
+		(property "Reference" "C3"
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 240.9952 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ef35bcb6-7818-48eb-88ce-8b2944f8c160")
+		)
+		(pin "1"
+			(uuid "2c81f840-ca15-447a-b988-ae89ac146a31")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C3")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C54")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d9751cf-6951-44dd-be10-0d5a92d07e48")
+		(property "Reference" "#PWR018"
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68e1a23f-9b9f-4551-99b2-464a7bcda3ce")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "626cf8c9-f8a7-4b7b-8020-b3d1f9effac1")
+		(property "Reference" "#PWR023"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 79.502 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ad8693a-e8e4-4983-81cd-544a65500a37")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68441605-9fa4-4149-be9f-cc66a5db0cb8")
+		(property "Reference" "#PWR014"
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b5837bc-a14c-4d13-8b2d-4e0241f4353b")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 50.8 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6abb6b5e-744f-4d95-bd8d-4db6fc45ef44")
+		(property "Reference" "D1F1"
+			(at 64.77 44.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 64.77 46.9198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 52.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 53.34 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "121617a0-d84f-4cb7-b76f-4523b68fed7c")
+		)
+		(pin "4"
+			(uuid "f30afba3-4018-40b5-9026-b5624a7372bb")
+		)
+		(pin "2"
+			(uuid "ea46d021-3fe0-456d-af74-fab1c7f6cb02")
+		)
+		(pin "1"
+			(uuid "ec1a25c9-8351-4927-82fd-382483557621")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3F1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1F1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4F1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b0d3943-6949-4266-8b75-f550aa719a86")
+		(property "Reference" "#PWR03"
+			(at 152.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e12c445c-d479-4b35-a4d4-4c5d4cf5bcdd")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0222")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c27e76e-f236-4438-a85a-80158da9a9fb")
+		(property "Reference" "#PWR024"
+			(at 50.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.102 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8576707-38f3-4334-8078-dd1dcf3fa99c")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 76.2 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70c03850-a2e9-456f-83c8-378b3ec85a8a")
+		(property "Reference" "D1D1"
+			(at 62.23 171.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 62.23 173.9198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 77.47 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 78.74 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 76.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "54c6f51a-7683-437c-b5d8-454c2d8325ba")
+		)
+		(pin "4"
+			(uuid "82f0397e-bc70-49bd-bc51-0cc66dc211a2")
+		)
+		(pin "2"
+			(uuid "25ecb65f-b0ae-43e7-ab81-39dbb34685f6")
+		)
+		(pin "1"
+			(uuid "1537ba94-2dbd-4b8e-8c28-81decf81d5ed")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3D1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1D1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4D1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 152.4 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "746acbee-86a8-4602-b85b-513297ec5556")
+		(property "Reference" "D1DP1"
+			(at 166.37 171.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 166.37 173.9198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 153.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 154.94 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 152.4 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7c8a1740-61ea-43f9-adc6-44864df1bc47")
+		)
+		(pin "4"
+			(uuid "5f5193ed-327d-4c77-bbaf-9625b5eada3c")
+		)
+		(pin "2"
+			(uuid "810d9eaf-e94c-49ed-b2c5-e75746cbbb61")
+		)
+		(pin "1"
+			(uuid "b2ebf390-0fc4-442b-ba06-7e3854e4a187")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3DP1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1DP1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4DP1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2DP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76337f93-ad72-4833-bb74-ed3a7c692dcc")
+		(property "Reference" "#PWR07"
+			(at 101.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97a09a8b-173d-4f14-8ed4-881c891e7172")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 251.46 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a08c9b9-aef3-4fe2-a2b7-69ad0697f2fc")
+		(property "Reference" "#PWR065"
+			(at 251.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 251.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32049495-4dda-4040-8415-5cbca46692f9")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0235")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fced081-7b50-466e-a9b3-78dc1df38be0")
+		(property "Reference" "#PWR070"
+			(at 251.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "327057d0-de95-43f0-a146-8b80c8ec390f")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0236")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8557a494-fa67-4a6c-a45c-d355bcd2c5fb")
+		(property "Reference" "#PWR072"
+			(at 273.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "923304af-7d58-4df9-8b3b-a796ba57f792")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0248")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 240.03 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88105ae8-95f4-4d15-bc68-2ec7b686370a")
+		(property "Reference" "#PWR054"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 240.03 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06c0c915-8386-48cc-ba7a-499540bf9806")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b3d763c-3599-491f-b8a2-011550816424")
+		(property "Reference" "#PWR09"
+			(at 50.8 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "665c0002-1fd8-40da-95ac-f51d202cd98f")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 273.05 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d89371d-8e9e-46c3-8625-17df83061fed")
+		(property "Reference" "C6"
+			(at 276.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 276.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 274.0152 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7215c3a-63eb-418c-a33f-2a39c254e2b9")
+		)
+		(pin "1"
+			(uuid "7d6b2822-cc1a-41a6-9a5c-14e1823afd7a")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C63")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 261.62 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "923fc080-a79f-4e85-995f-efcab9b16199")
+		(property "Reference" "#PWR049"
+			(at 261.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 261.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52f6767f-140d-4f88-82c9-51848ccf7730")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR049")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0245")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 228.6 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9463be94-0e9b-4c77-b4db-0c9e1bc2c3c1")
+		(property "Reference" "#PWR053"
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ff1b310-b8d9-4721-9086-be069948d630")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "954346b6-bf2a-45c1-af2e-f53c396b7c88")
+		(property "Reference" "#PWR068"
+			(at 228.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7646082c-4b13-43f0-be89-620460196c1d")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0224")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 101.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9770556f-6601-4685-8eab-c9b50285a190")
+		(property "Reference" "D1G2"
+			(at 103.7433 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 103.7433 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 104.14 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ba8c57d8-2b6e-44e5-9a52-dd5fb180da9d")
+		)
+		(pin "4"
+			(uuid "576826f6-4f93-4df0-bf96-e2d048d7d2e4")
+		)
+		(pin "2"
+			(uuid "0ec70c82-6f59-4c52-93a1-c7e0e4fe12dd")
+		)
+		(pin "1"
+			(uuid "07b0aa22-0787-444d-8894-ef9e84b75f47")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3G2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1G2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4G2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2G2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abbdb48e-098d-4a61-8777-c343043c679c")
+		(property "Reference" "#PWR052"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "304d2758-f0d0-426a-ae63-06d58e730177")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0228")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba9406ee-c9d3-46e9-a1ee-7482dd1cab74")
+		(property "Reference" "#PWR030"
+			(at 152.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 155.702 168.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 152.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "499c5111-cd14-40d4-b7dc-a93b385b3e52")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0221")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 240.03 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be779737-000f-4922-8f09-6f8f6c5a500d")
+		(property "Reference" "#PWR064"
+			(at 240.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 240.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b148a6f-1c05-4ce5-9819-3270218bf856")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0229")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0261084-5c5b-4023-bce7-9b3f83a60deb")
+		(property "Reference" "#PWR071"
+			(at 261.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a24fb54-e1bb-457d-a026-e5f95e9245f0")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR071")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 240.03 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1800cba-084c-4c4a-b19e-9d319f37cf26")
+		(property "Reference" "#PWR047"
+			(at 240.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 240.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbd18aed-f7c6-4c86-8fba-84c3a6a1f111")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0233")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c21e259f-2b65-410f-b476-8e447568b23b")
+		(property "Reference" "#PWR04"
+			(at 50.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.102 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb7493ff-831b-4c93-a930-26f9482a2022")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c25c6d3a-55a8-46fe-973a-8ab52c7571ad")
+		(property "Reference" "#PWR062"
+			(at 273.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f586f215-6a91-4a64-825c-691f6d1b2bbd")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0250")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3901aeb-3822-4668-967e-4c289c0b1fbd")
+		(property "Reference" "#PWR013"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f85f1d8-0873-4c08-a9eb-1e0a89aaac3b")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 261.62 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c94805d9-74f1-435c-b016-a827d0e507e3")
+		(property "Reference" "#PWR066"
+			(at 261.62 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 261.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b34f7c3-b48b-4ebc-8e9c-b065936139fa")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0241")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdf3e002-c4d8-4db4-b886-363572aef265")
+		(property "Reference" "#PWR069"
+			(at 240.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e5d1853-4b7a-4cb9-84b2-5c562b38f223")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0230")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 101.6 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfb8ce1f-03e9-4a5a-bbd5-aef091c8ddb9")
+		(property "Reference" "#PWR021"
+			(at 101.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 104.902 168.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 101.6 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad30ead1-188b-41df-9a1c-d10896224d48")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d089cb2d-d8cd-4d1d-8d35-6292d201c110")
+		(property "Reference" "#PWR059"
+			(at 240.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f7e7184-da1c-468f-96e2-812a7fdbbefa")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 261.62 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5c5da04-e324-44ba-b8da-99324a8df30c")
+		(property "Reference" "C16"
+			(at 265.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 265.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 262.5852 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a42c7828-bc77-4bbd-be1a-0f1d4701bad2")
+		)
+		(pin "1"
+			(uuid "712c086c-e66a-43d8-803b-67f334273c85")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C58")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d81dbb0d-4a16-4729-94d1-6ea79f1260fc")
+		(property "Reference" "C14"
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 243.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 240.9952 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c78fa2f-7061-41cc-82d3-716d1dc31388")
+		)
+		(pin "1"
+			(uuid "6e43da67-728d-4ef4-b511-df7d25e14a2f")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C52")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d86a9183-cfcd-4f23-9bef-93d74e43937d")
+		(property "Reference" "#PWR01"
+			(at 127 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.048 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e60ebd4e-224e-4543-9806-e5c523599a1d")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 127 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d88ea92d-3f43-4440-b08e-ae9dcbf060c8")
+		(property "Reference" "D1C1"
+			(at 140.97 120.5798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 140.97 123.1198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 128.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 129.54 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d45c6164-42e8-40d6-89b8-deea92290617")
+		)
+		(pin "4"
+			(uuid "76628078-3f2c-4498-bddc-19862e89504e")
+		)
+		(pin "2"
+			(uuid "3f4d2124-48c7-45d6-9312-55e07933d2fa")
+		)
+		(pin "1"
+			(uuid "1160a23c-75ff-4dc1-ad34-324874827fad")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3C1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1C1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4C1")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 101.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da640fa5-7124-4d4d-be5c-6c2454d9709a")
+		(property "Reference" "#PWR022"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 104.902 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9972eaa-5308-4c2e-8e2c-7f8e8276a35a")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbbc2395-8191-4b95-9e85-5bc90a0ef880")
+		(property "Reference" "#PWR012"
+			(at 50.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2488d78-dd2f-4d03-92a0-074cca526ccb")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 261.62 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de12f008-f1c3-4a53-a068-ed8b5b57b6f3")
+		(property "Reference" "C5"
+			(at 265.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 265.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 262.5852 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf588d3b-a262-45c7-9c4f-6e602d16c809")
+		)
+		(pin "1"
+			(uuid "e58d8465-1c21-46ad-b54e-060725d0b24e")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C60")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED-extra:SK6812MINI-E")
+		(at 127 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de444aff-b561-4974-a90a-2a938ff146c0")
+		(property "Reference" "D1B2"
+			(at 113.03 69.7798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 113.03 72.3198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD-extra:LED_SK6812MINI-E_3.2x2.8x1.78mm_P1.5mm"
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2305101623_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.pdf"
+			(at 129.54 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Reverse mount RGB LED with integrated controller"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6e0974ed-e6bd-4451-893d-d8dcaa00851f")
+		)
+		(pin "4"
+			(uuid "8926074d-115b-4fcf-9b57-6235b46c8a3d")
+		)
+		(pin "2"
+			(uuid "48b578a7-e873-43b0-a6ae-ce1a9b98dca6")
+		)
+		(pin "1"
+			(uuid "2880a68f-a96f-4d85-b1c6-1299af047564")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "D3B2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "D1B2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "D4B2")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "D2B2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2a1ebed-2be5-4b2c-bb5b-7da68f57ffff")
+		(property "Reference" "#PWR05"
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.302 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "254ae0e4-de14-4a0a-bd31-58a730809527")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e36e7f15-6fd4-4fb5-9bff-18c3e3cba9a5")
+		(property "Reference" "#PWR016"
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0aed0b6-70b4-4568-aecc-d590a93e4d42")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 273.05 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e613f149-5c86-46a5-af42-33b02967d22d")
+		(property "Reference" "#PWR067"
+			(at 273.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 273.05 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bac2f12f-3599-46b2-8b75-827f86eb6be3")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0247")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 273.05 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9fce6fd-cba8-4813-88d1-910c9040ec7d")
+		(property "Reference" "C17"
+			(at 276.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 276.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 274.0152 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "16913be1-01d7-45f0-b809-cb6e29199aee")
+		)
+		(pin "1"
+			(uuid "d613ef48-29da-4817-8bd4-adceb0e9fbe2")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C61")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 251.46 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb33e546-347e-4970-9ffd-a93812466713")
+		(property "Reference" "#PWR048"
+			(at 251.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 251.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "582edd7f-284c-4fa6-8d6f-9bab5f4d0f04")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0239")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 273.05 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb65f7b6-944b-4ef5-8628-997c9e021624")
+		(property "Reference" "C12"
+			(at 276.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 276.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 274.0152 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c52bd6af-b0a8-4b36-b2c5-7fcfa7756dd3")
+		)
+		(pin "1"
+			(uuid "553d4223-e84c-472b-a884-40cd40b67f40")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C62")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec2f0dac-1ab5-458a-96ca-dbe7afc73736")
+		(property "Reference" "#PWR020"
+			(at 76.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 79.502 168.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4d81a20-da6c-41d3-b4d1-43dc010a43e7")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 273.05 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec6c7b01-b096-4423-a2d5-b0cdeec9389d")
+		(property "Reference" "#PWR050"
+			(at 273.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 273.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b95c29d-0148-47c2-92ac-fb019b830903")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0251")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed08adab-18c5-4298-9211-d040d8917878")
+		(property "Reference" "#PWR015"
+			(at 127 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d314a894-c5fe-49f9-9b60-d4ff64e38058")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f008f321-3360-4894-b74a-5ff7c8fb2188")
+		(property "Reference" "#PWR025"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.102 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09efdea9-7bc5-4143-ab8b-5ada97bf60f7")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f35e7311-a901-4293-98d2-1de04a08758e")
+		(property "Reference" "#PWR045"
+			(at 261.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0597ad40-529c-490b-953f-3d3413515bb5")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f42e81f0-f58f-43f8-9b0d-609243045a6e")
+		(property "Reference" "#PWR02"
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "101861ba-88f7-4507-be5f-8e0683e7a0e5")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fad6c358-3022-47b4-87a6-612672b2716a")
+		(property "Reference" "C9"
+			(at 243.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 240.9952 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5af0ed0f-8748-4e27-bc4a-496b0bed05c4")
+		)
+		(pin "1"
+			(uuid "4a27e60b-d2d3-467a-9187-f4893a7f13d5")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C53")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 261.62 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdb445f5-5790-45aa-94a8-3ffdb092546d")
+		(property "Reference" "C11"
+			(at 265.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 265.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 262.5852 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "71266bfb-59b2-40df-bb74-a1807d9b8bd8")
+		)
+		(pin "1"
+			(uuid "d4c633b2-325c-469b-8987-93f61d092c6c")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "C59")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 261.62 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fee1707a-08ee-4c2b-99b6-bc37bc399992")
+		(property "Reference" "#PWR056"
+			(at 261.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 261.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98ae3a58-6f26-4a07-8ec5-d4442c9c0a25")
+		)
+		(instances
+			(project "n-teller-xl-diy"
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/579b9e82-46a8-4404-86be-c915e97551d6"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/71e1e901-8b22-46ba-bd04-18c66bde4254"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/9be936ba-034e-48d4-bc67-d88aac328728"
+					(reference "#PWR0243")
+					(unit 1)
+				)
+				(path "/5cbe1ad6-2ddf-450a-9306-1d455b963175/a1e6b3ce-a48e-4997-9533-d86f37bcfaac"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

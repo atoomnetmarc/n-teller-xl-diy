@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "7-segment")(type "KiCad")(uri "${KIPRJMOD}/7-segment.pretty")(options "")(descr ""))
+  (lib (name "LED_SMD-extra")(type "KiCad")(uri "${ATOOMNETKICAD}/footprints/LED_SMD-extra.pretty")(options "")(descr ""))
+  (lib (name "RF_Module-fixed")(type "KiCad")(uri "${ATOOMNETKICAD}/footprints/RF_Module-fixed.pretty")(options "")(descr ""))
+)
