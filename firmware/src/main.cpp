@@ -179,8 +179,30 @@ void setup() {
 
         Serial.println("Our new WiFi credentials seem to work!");
     } else {
+
+        // All LEDS are currently blue
+        delay(2500);
+
+        // All LEDS green
+        display.all(COLOR_GREEN);
+        display.strip.Show();
+        delay(2500);
+
+        // All LEDS red
+        display.all(COLOR_RED);
+        display.strip.Show();
+        delay(2500);
+
+        // All LEDS yellow
+        display.all(COLOR_YELLOW);
+        display.strip.Show();
+
+        display.showText("Conn", COLOR_YELLOW);
+
         WiFi.begin();
     }
+
+
 
     wifiConnectHandler = WiFi.onStationModeGotIP(onWifiConnect);
     wifiDisconnectHandler = WiFi.onStationModeDisconnected(onWifiDisconnect);

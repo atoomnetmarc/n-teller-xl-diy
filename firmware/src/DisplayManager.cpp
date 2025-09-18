@@ -219,7 +219,7 @@ const uint8_t DisplayManager::patterns[96] = {
     PATTERN_UNDEFINED, // @
     0b01110111,        // A
     PATTERN_UNDEFINED, // B
-    PATTERN_UNDEFINED, // C
+    0b01001110,        // C
     PATTERN_UNDEFINED, // D
     PATTERN_UNDEFINED, // E
     0b01000111,        // F
@@ -281,4 +281,3 @@ const uint8_t DisplayManager::patterns[96] = {
     0b01000000,        // ~
     0b00000000,        // (del)
 };
-

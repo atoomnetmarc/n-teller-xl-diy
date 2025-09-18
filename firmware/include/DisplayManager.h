@@ -20,14 +20,14 @@ public:
     uint8_t getPattern(char character);
     void showText(const char *text, RgbColor color);
     static uint8_t brightness;
+    void all(RgbColor color);
+    NeoPixelBusLg<NeoGrbFeature, NeoEsp8266Uart1Sk6812Method, NeoGammaNullMethod> strip;
 
 private:
-    NeoPixelBusLg<NeoGrbFeature, NeoEsp8266Uart1Sk6812Method, NeoGammaNullMethod> strip;
     static constexpr uint16_t PixelCount = 60;
     static const uint8_t PATTERN_UNDEFINED = 0b11001001;
     static const uint8_t patterns[96];
     static const uint16_t segmentPixels[8][2];
-    void all(RgbColor color);
 };
 
 #endif
