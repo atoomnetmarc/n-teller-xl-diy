@@ -62,4 +62,6 @@ Double press the reset button (somewhat slowly). The letters `AP` will appear on
 
 Oh, sure, because nothing says "reliable electronics" like ignoring basic signal integrity! No, you don't *really* need the level shifter. Just blob some solder on `JP1` and cross your fingers that your 3.3V signals magically play nice with those finicky SK6812s. But when your display starts glitching like it's possessed by a deranged hacker, don't you dare come whining to me – after all, you're the self-proclaimed expert who thought this was a brilliant idea. Good luck with that masterpiece!
 
+On serious note. It depends. I had 2 batches of SK6812 LEDS's. One batch worked on 3.3V DIN, but VCC must be below 5.1V, any higher and it did not work. The other batch did not work, even after lowering VCC to below 4.5V. So, yes, you need a level shifter.
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
