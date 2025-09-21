@@ -26,7 +26,7 @@ See interactive BOM: [hardware/bom/](https://html-preview.github.io/?url=https:/
 You will also need:
 
 - The pcb. See [hardware/gerber/](hardware/gerber/) for gerber files. Order it at some PCB fabricator. You can also ask me for a bare PCB when I am at [RevSpace](https://revspace.nl/) hackerspace. I may have some left. I sell them for €5 a piece.
-- 4x 3D prints of `7-segment 2.3 inch.stl` in opaque colored plastic.
+- 4x 3D prints of `7-segment 2.3 inch.stl` in opaque colored plastic. Use Gyroid infill for strong screw holes.
 - 1x 3D print of `n-teller-xl-diy-stand.stl` in the color of your choice.
 - 16x M2x10 self-tapping hex screws to mount the 4 7-segment 3D prints to the PCB.
 - 3x M3x12 BHCS screws to mount the PCB to the 3D printed stand.
